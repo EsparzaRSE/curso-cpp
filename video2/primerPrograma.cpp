@@ -2,7 +2,7 @@
 
 int main(){
 
-   std::cout << "Hola mundo prueba";
+   std::cout << "Hola mundo pruebas varias";
     
 
 }
