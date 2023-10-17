@@ -6,8 +6,8 @@
             "command": "/usr/bin/g++",
             "args": [
                 "-fdiagnostics-color=always",
-                "-g",
-                "${file}",
+                "-g", //debugg
+                "${folder}*.cpp", //Con esto compila todos los .cpp de la carpeta donde te encuentras (ver video en youtube si hay dudas)
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
